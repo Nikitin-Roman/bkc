@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Regular.eot');
+    src: url('../fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('../fonts/WorkSans-Regular.woff') format('woff'),
+        url('../fonts/WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Light.eot');
+    src: url('../fonts/WorkSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WorkSans-Light.woff2') format('woff2'),
+        url('../fonts/WorkSans-Light.woff') format('woff'),
+        url('../fonts/WorkSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Florencesans';
+    src: url('../fonts/SFFlorencesans.eot');
+    src: url('../fonts/SFFlorencesans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFFlorencesans.woff2') format('woff2'),
+        url('../fonts/SFFlorencesans.woff') format('woff'),
+        url('../fonts/SFFlorencesans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-SemiBold.eot');
+    src: url('../fonts/WorkSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WorkSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/WorkSans-SemiBold.woff') format('woff'),
+        url('../fonts/WorkSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Black.eot');
+    src: url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Black.woff2') format('woff2'),
+        url('../fonts/Raleway-Black.woff') format('woff'),
+        url('../fonts/Raleway-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-ExtraLight.eot');
+    src: url('../fonts/WorkSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WorkSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/WorkSans-ExtraLight.woff') format('woff'),
+        url('../fonts/WorkSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff'),
+        url('../fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff'),
+        url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Florencesans';
+    src: url('../fonts/SFFlorencesansBlack.eot');
+    src: url('../fonts/SFFlorencesansBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFFlorencesansBlack.woff2') format('woff2'),
+        url('../fonts/SFFlorencesansBlack.woff') format('woff'),
+        url('../fonts/SFFlorencesansBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Thin.eot');
+    src: url('../fonts/WorkSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WorkSans-Thin.woff2') format('woff2'),
+        url('../fonts/WorkSans-Thin.woff') format('woff'),
+        url('../fonts/WorkSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Florencesans';
+    src: url('../fonts/SFFlorencesans-Bold.eot');
+    src: url('../fonts/SFFlorencesans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFFlorencesans-Bold.woff2') format('woff2'),
+        url('../fonts/SFFlorencesans-Bold.woff') format('woff'),
+        url('../fonts/SFFlorencesans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('../fonts/LibreBodoni-Bold.eot');
+    src: url('../fonts/LibreBodoni-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LibreBodoni-Bold.woff2') format('woff2'),
+        url('../fonts/LibreBodoni-Bold.woff') format('woff'),
+        url('../fonts/LibreBodoni-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Medium.eot');
+    src: url('../fonts/WorkSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/WorkSans-Medium.woff2') format('woff2'),
+        url('../fonts/WorkSans-Medium.woff') format('woff'),
+        url('../fonts/WorkSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('../fonts/LibreBodoni-Regular.eot');
+    src: url('../fonts/LibreBodoni-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LibreBodoni-Regular.woff2') format('woff2'),
+        url('../fonts/LibreBodoni-Regular.woff') format('woff'),
+        url('../fonts/LibreBodoni-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('../fonts/LibreBodoni-Regular_1.eot');
+    src: url('../fonts/LibreBodoni-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LibreBodoni-Regular_1.woff2') format('woff2'),
+        url('../fonts/LibreBodoni-Regular_1.woff') format('woff'),
+        url('../fonts/LibreBodoni-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('../fonts/LibreBodoni-Bold_1.eot');
+    src: url('../fonts/LibreBodoni-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LibreBodoni-Bold_1.woff2') format('woff2'),
+        url('../fonts/LibreBodoni-Bold_1.woff') format('woff'),
+        url('../fonts/LibreBodoni-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

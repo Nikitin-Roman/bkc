@@ -1,0 +1,1415 @@
+body {
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 17px;
+}
+
+body img {
+  -webkit-box-shadow: 0px 0px 4px 4px #c7c7c7;
+  box-shadow: 0px 0px 4px 4px #c7c7c7;
+}
+
+body .img-none {
+  display: none;
+}
+
+body .first-letter {
+  position: relative;
+  z-index: 1;
+  padding: 38px 25px 40px 20px;
+}
+
+body .first-letter__pseudo {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  background-color: #010101;
+  width: 41px;
+  height: 43px;
+  font-size: 43px;
+}
+
+body .first-letter__pseudo:after {
+  position: absolute;
+  font-size: 50px;
+  left: 3px;
+  top: -14px;
+}
+
+body .quote__text .quote__img {
+  width: 43px;
+  height: 46px;
+  margin-right: 5px;
+  margin-top: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  float: left;
+}
+
+body .quote__text .quote__desc {
+  font-family: 'Raleway';
+  font-size: 14px;
+  position: relative;
+  width: 620px;
+  line-height: 1.24;
+}
+
+body .quote .quote__author {
+  width: 250px;
+  font-family: 'Raleway';
+  line-height: 1.24;
+  font-size: 14px;
+  float: right;
+  margin-top: 16px;
+  position: relative;
+}
+
+body .quote .quote__author span {
+  font-weight: bold;
+}
+
+body .quote .quote__author:after {
+  position: absolute;
+  content: '';
+  height: 80%;
+  width: 1px;
+  background-color: #000;
+  display: block;
+  left: -15px;
+  top: 10%;
+}
+
+.catholic {
+  margin-top: 20px;
+}
+
+.catholic .container {
+  position: relative;
+}
+
+.catholic .container:after {
+  content: '';
+  width: 98%;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  bottom: -74px;
+  left: 20px;
+  height: 1px;
+}
+
+.catholic .caption {
+  margin-bottom: 40px;
+}
+
+.catholic .caption h4 {
+  color: #000;
+}
+
+.catholic .logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.catholic .logo img {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.catholic .logo .logo-text {
+  font-family: 'Work Sans';
+  font-weight: 300;
+  position: absolute;
+  top: -1px;
+  left: 55px;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.catholic .logo .logo-text span {
+  font-size: 16px;
+}
+
+.catholic .logo .logo-text:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 45px;
+  background-color: #bbb;
+  right: -35px;
+  top: 5px;
+}
+
+.catholic h4 {
+  display: inline-block;
+  margin-left: 145px;
+  font-family: 'Libre Bodoni';
+  font-size: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.catholic .first-letter {
+  float: left;
+  margin-right: 1px;
+  padding-bottom: 0px;
+}
+
+.catholic .first-letter__pseudo:after {
+  content: 'C';
+}
+
+.catholic-text {
+  width: 630px;
+}
+
+.catholic-maintext {
+  font-family: 'Raleway';
+  font-size: 14px;
+  margin-top: -2px;
+  position: relative;
+  line-height: 1.24;
+  margin-bottom: 27px;
+}
+
+.catholic .col-right:after {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 315px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.catholic .col-right:before {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 312px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.catholic .col-right .cath-imgs {
+  margin-top: 119px;
+}
+
+.catholic .col-right .cath-imgs img:last-child {
+  margin-left: 47px;
+}
+
+.catholic .col-left img:first-child {
+  margin-bottom: 51px;
+  width: 390px;
+}
+
+.greatbay {
+  margin-top: 20px;
+}
+
+.greatbay .container {
+  position: relative;
+}
+
+.greatbay .container:after {
+  content: '';
+  width: 98%;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  bottom: -74px;
+  left: 20px;
+  height: 1px;
+}
+
+.greatbay .caption {
+  margin-bottom: 25px;
+  margin-top: 108px;
+  color: #000;
+}
+
+.greatbay .logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.greatbay .logo img {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.greatbay .logo .logo-text {
+  display: inline-block;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  top: -1px;
+  left: 55px;
+  font-size: 29px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.greatbay .logo .logo-text:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 23px;
+  background-color: #000;
+  right: -22px;
+  top: 0px;
+}
+
+.greatbay h4 {
+  display: inline-block;
+  margin-left: 45px;
+  font-family: 'Libre Bodoni';
+  font-size: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.greatbay .first-letter {
+  float: left;
+  margin-right: 1px;
+  padding-bottom: 0px;
+}
+
+.greatbay .first-letter__pseudo:after {
+  content: 'G';
+}
+
+.greatbay-text {
+  width: 630px;
+}
+
+.greatbay-maintext {
+  font-family: 'Raleway';
+  font-size: 14px;
+  margin-top: -2px;
+  position: relative;
+  line-height: 1.24;
+  margin-bottom: 27px;
+}
+
+.greatbay .col-right:after {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 343px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.greatbay .col-right:before {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 346px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.greatbay .col-right .greatbay-imgs {
+  margin-top: 119px;
+}
+
+.greatbay .col-right .greatbay-imgs img:nth-child(2) {
+  margin-left: 47px;
+}
+
+.greatbay .col-left img:first-child {
+  margin-bottom: 51px;
+}
+
+.cfs {
+  margin-top: 20px;
+}
+
+.cfs .container {
+  position: relative;
+}
+
+.cfs .container:after {
+  content: '';
+  width: 98%;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  top: 1214px;
+  left: 20px;
+  height: 1px;
+}
+
+.cfs .caption {
+  margin-bottom: 25px;
+  margin-top: 118px;
+  color: #000;
+}
+
+.cfs .logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cfs .logo img {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.cfs .logo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 23px;
+  background-color: #000;
+  right: -33px;
+  bottom: 13px;
+}
+
+.cfs h4 {
+  display: inline-block;
+  margin-left: 55px;
+  font-family: 'Libre Bodoni';
+  font-size: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.cfs .first-letter {
+  float: left;
+  margin-right: 1px;
+  padding-bottom: 0px;
+}
+
+.cfs .first-letter__pseudo:after {
+  content: 'C';
+}
+
+.cfs .catholic-maintext {
+  font-family: 'Raleway';
+  font-size: 14px;
+  margin-top: -2px;
+  position: relative;
+  width: 630px;
+}
+
+.cfs .catholic-maintext a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.cfs .catholic-maintext a:hover {
+  text-decoration: none;
+}
+
+.cfs .col-right:after {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 255px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.cfs .col-right:before {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 258px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.cfs .col-right .cfs-imgs {
+  margin-top: 115px;
+}
+
+.cfs .col-right .cfs-imgs img:nth-child(2) {
+  margin-right: 43px;
+}
+
+.cfs .col-right .cfs-imgs img:last-child {
+  margin-top: 50px;
+}
+
+.cfs .col-left img:first-child {
+  margin-bottom: 28px;
+}
+
+.cfs .quote .quote__author {
+  width: 370px;
+}
+
+.juicebot {
+  margin-top: 20px;
+}
+
+.juicebot .container {
+  position: relative;
+}
+
+.juicebot .container:after {
+  content: '';
+  width: 98%;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  top: 1255px;
+  left: 20px;
+  height: 1px;
+}
+
+.juicebot .caption {
+  margin-bottom: 25px;
+  margin-top: 84px;
+  color: #000;
+}
+
+.juicebot .logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.juicebot .logo img {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.juicebot .logo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background-color: #000;
+  right: -33px;
+  bottom: 45px;
+}
+
+.juicebot h4 {
+  display: inline-block;
+  margin-left: 55px;
+  font-family: 'Libre Bodoni';
+  font-size: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.juicebot .first-letter {
+  float: left;
+  margin-right: 1px;
+  padding-bottom: 0px;
+}
+
+.juicebot .first-letter__pseudo:after {
+  content: 'J';
+  left: 8px;
+}
+
+.juicebot-maintext {
+  font-family: 'Raleway';
+  font-size: 14px;
+  margin-top: -2px;
+  position: relative;
+  width: 630px;
+}
+
+.juicebot .col-right:after {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 290px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.juicebot .col-right:before {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 293px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.juicebot .col-right .juicebot-imgs {
+  margin-top: 117px;
+}
+
+.juicebot .col-right .juicebot-imgs img:last-child {
+  margin-top: -200px;
+  margin-left: 35px;
+}
+
+.juicebot .col-left img:first-child {
+  margin-bottom: 28px;
+}
+
+.juicebot .quote .quote__author {
+  width: 162px;
+}
+
+.maevn {
+  padding-bottom: 101px;
+  margin-top: 20px;
+}
+
+.maevn .container {
+  position: relative;
+}
+
+.maevn .caption {
+  margin-bottom: 25px;
+  margin-top: 108px;
+  color: #000;
+}
+
+.maevn .logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.maevn .logo img {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.maevn .logo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 23px;
+  background-color: #000;
+  right: -22px;
+  top: 0px;
+}
+
+.maevn h4 {
+  display: inline-block;
+  margin-left: 45px;
+  font-family: 'Libre Bodoni';
+  font-size: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.maevn .first-letter {
+  float: left;
+  margin-right: 1px;
+  padding-bottom: 0px;
+}
+
+.maevn .first-letter__pseudo:after {
+  content: 'B';
+}
+
+.maevn-maintext {
+  font-family: 'Raleway';
+  font-size: 14px;
+  margin-top: -2px;
+  position: relative;
+  width: 630px;
+}
+
+.maevn .col-right:after {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 272px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.maevn .col-right:before {
+  content: '';
+  display: block;
+  width: 97%;
+  height: 1px;
+  position: absolute;
+  top: 275px;
+  left: 15px;
+  background-color: #bbb;
+}
+
+.maevn .col-right .maevn-imgs {
+  margin-top: 118px;
+}
+
+.maevn .col-right .maevn-imgs img {
+  float: left;
+}
+
+.maevn .col-right .maevn-imgs img:nth-child(3) {
+  float: right;
+}
+
+.maevn .col-right .maevn-imgs img:last-child {
+  float: right;
+  margin-top: 29px;
+}
+
+.maevn .col-left img:first-child {
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 770px) {
+  img.img-none {
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .catholic .container:after {
+    left: 0;
+  }
+
+  .catholic .container .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .catholic .container .caption .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .catholic .container .caption .logo img {
+    width: 50px;
+  }
+
+  .catholic .container .caption .logo .logo-text {
+    font-size: 18px;
+    position: static;
+    margin-left: 5px;
+    line-height: 1;
+    display: block;
+  }
+
+  .catholic .container .caption .logo .logo-text:after {
+    width: 50px;
+    height: 1px;
+    top: 80px;
+    left: 0;
+  }
+
+  .catholic .container .caption .logo .logo-text span {
+    font-size: 15px;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .catholic .container .caption h4 {
+    display: block;
+    vertical-align: middle;
+    font-size: 25px;
+    width: 230px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .catholic .col-left {
+    display: none;
+  }
+
+  .catholic .col-left img:first-child {
+    margin-bottom: 20px;
+    width: 152px;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .catholic .col-left img:last-child {
+    width: 152px;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .catholic .col-right:after {
+    display: none;
+  }
+
+  .catholic .col-right:before {
+    display: none;
+  }
+
+  .catholic .col-right .cath-imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    position: relative;
+  }
+
+  .catholic .col-right .cath-imgs img {
+    width: 47%;
+  }
+
+  .catholic .col-right .cath-imgs img:first-child {
+    -webkit-box-ordinal-group: -1;
+    -ms-flex-order: -2;
+    order: -2;
+    margin-right: 10px;
+  }
+
+  .catholic .col-right .cath-imgs img:nth-child(2) {
+    -webkit-box-ordinal-group: -1;
+    -ms-flex-order: -2;
+    order: -2;
+  }
+
+  .catholic .col-right .cath-imgs img:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  .catholic .col-right .cath-imgs img:last-child {
+    margin-top: 20px;
+    margin-left: 0px;
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+    margin-right: 10px;
+  }
+
+  .catholic .col-right .cath-imgs:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .catholic .col-right .cath-imgs:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: -38px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .catholic .col-right .catholic-text {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .catholic .col-right .catholic-text .quote__text .quote__desc {
+    width: 100%;
+    font-style: italic;
+  }
+
+  .catholic .col-right .catholic-text .quote .quote__author:after {
+    height: 1px;
+    width: 10px;
+    top: 7px;
+  }
+
+  .greatbay .container:after {
+    left: 0;
+  }
+
+  .greatbay .container .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .greatbay .container .caption .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .greatbay .container .caption .logo img {
+    width: 50px;
+  }
+
+  .greatbay .container .caption .logo .logo-text {
+    font-size: 18px;
+    position: static;
+    margin-left: 5px;
+    line-height: 1;
+    display: block;
+  }
+
+  .greatbay .container .caption .logo .logo-text:after {
+    width: 50px;
+    height: 1px;
+    top: 80px;
+    left: 0;
+  }
+
+  .greatbay .container .caption .logo .logo-text span {
+    font-size: 15px;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .greatbay .container .caption h4 {
+    display: block;
+    vertical-align: middle;
+    font-size: 25px;
+    width: 230px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .greatbay .col-left {
+    display: none;
+  }
+
+  .greatbay .col-left img:first-child {
+    margin-bottom: 20px;
+    width: 152px;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .greatbay .col-left img:last-child {
+    width: 152px;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .greatbay .col-right:after {
+    display: none;
+  }
+
+  .greatbay .col-right:before {
+    display: none;
+  }
+
+  .greatbay .col-right .greatbay-imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    position: relative;
+  }
+
+  .greatbay .col-right .greatbay-imgs img {
+    width: 47%;
+  }
+
+  .greatbay .col-right .greatbay-imgs img:first-child {
+    -webkit-box-ordinal-group: -1;
+    -ms-flex-order: -2;
+    order: -2;
+    margin-right: 10px;
+  }
+
+  .greatbay .col-right .greatbay-imgs img:nth-child(2) {
+    -webkit-box-ordinal-group: -1;
+    -ms-flex-order: -2;
+    order: -2;
+    margin-left: 0px;
+  }
+
+  .greatbay .col-right .greatbay-imgs img:nth-child(3) {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .greatbay .col-right .greatbay-imgs img:last-child {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .greatbay .col-right .greatbay-imgs:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .greatbay .col-right .greatbay-imgs:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: -38px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .greatbay .col-right .catholic-text {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .greatbay .col-right .catholic-text .quote__text .quote__desc {
+    width: 100%;
+    font-style: italic;
+  }
+
+  .greatbay .col-right .catholic-text .quote .quote__author:after {
+    height: 1px;
+    width: 10px;
+    top: 7px;
+  }
+
+  .cfs .container:after {
+    left: 0;
+    top: 1110px;
+  }
+
+  .cfs .container .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .cfs .container .caption .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .cfs .container .caption .logo img {
+    width: 80px;
+  }
+
+  .cfs .container .caption .logo:after {
+    width: 50px;
+    height: 1px;
+    top: 64px;
+    left: 0;
+  }
+
+  .cfs .container .caption h4 {
+    display: block;
+    vertical-align: middle;
+    font-size: 25px;
+    width: 230px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .cfs .col-left {
+    display: none;
+  }
+
+  .cfs .col-right:after {
+    display: none;
+  }
+
+  .cfs .col-right:before {
+    display: none;
+  }
+
+  .cfs .col-right .cfs-imgs img {
+    width: 47%;
+  }
+
+  .cfs .col-right .cfs-imgs img:first-child {
+    float: left;
+    margin-right: 16px;
+  }
+
+  .cfs .col-right .cfs-imgs img:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  .cfs .col-right .cfs-imgs img:last-child {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .cfs .col-right .cfs-imgs:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 383px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .cfs .col-right .cfs-imgs:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 386px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .cfs .col-right .catholic-text {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .cfs .col-right .catholic-text .catholic-maintext {
+    width: 100%;
+  }
+
+  .cfs .col-right .catholic-text .quote__text .quote__desc {
+    width: 100%;
+    font-style: italic;
+  }
+
+  .cfs .col-right .catholic-text .quote .quote__author {
+    width: 220px;
+    text-align: right;
+    margin-top: 30px;
+  }
+
+  .cfs .col-right .catholic-text .quote .quote__author .dash {
+    display: none;
+  }
+
+  .cfs .col-right .catholic-text .quote .quote__author:after {
+    height: 1px;
+    width: 10px;
+    top: 7px;
+    left: 15px;
+  }
+
+  .juicebot .container:after {
+    left: 0;
+  }
+
+  .juicebot .container .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .juicebot .container .caption .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .juicebot .container .caption .logo img {
+    width: 80px;
+  }
+
+  .juicebot .container .caption .logo:after {
+    width: 50px;
+    height: 1px;
+    top: 107px;
+    left: 0;
+  }
+
+  .juicebot .container .caption h4 {
+    display: block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .juicebot .col-left {
+    display: none;
+  }
+
+  .juicebot .col-right:after {
+    display: none;
+  }
+
+  .juicebot .col-right:before {
+    display: none;
+  }
+
+  .juicebot .col-right .juicebot-imgs img {
+    width: 47%;
+  }
+
+  .juicebot .col-right .juicebot-imgs img:first-child {
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .juicebot .col-right .juicebot-imgs img:nth-child(2) {
+    float: right;
+    margin-bottom: 20px;
+  }
+
+  .juicebot .col-right .juicebot-imgs img:nth-child(3) {
+    float: right;
+  }
+
+  .juicebot .col-right .juicebot-imgs img:last-child {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .juicebot .col-right .juicebot-imgs:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 455px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .juicebot .col-right .juicebot-imgs:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 458px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .juicebot .col-right .catholic-text {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .juicebot .col-right .catholic-text .catholic-maintext {
+    width: 100%;
+  }
+
+  .juicebot .col-right .catholic-text .quote__text .quote__desc {
+    width: 100%;
+    font-style: italic;
+  }
+
+  .juicebot .col-right .catholic-text .quote .quote__author:after {
+    height: 1px;
+    width: 10px;
+    top: 7px;
+  }
+
+  .maevn .container:after {
+    left: 0;
+  }
+
+  .maevn .container .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .maevn .container .caption .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .maevn .container .caption .logo img {
+    width: 80px;
+  }
+
+  .maevn .container .caption .logo:after {
+    width: 50px;
+    height: 1px;
+    top: 40px;
+    left: 0;
+  }
+
+  .maevn .container .caption h4 {
+    display: block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .maevn .col-left {
+    display: none;
+  }
+
+  .maevn .col-right:after {
+    display: none;
+  }
+
+  .maevn .col-right:before {
+    display: none;
+  }
+
+  .maevn .col-right .maevn-imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
+
+  .maevn .col-right .maevn-imgs img {
+    width: 47%;
+  }
+
+  .maevn .col-right .maevn-imgs img:first-child {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .maevn .col-right .maevn-imgs img:nth-child(2) {
+    margin-bottom: 20px;
+    margin-left: 9px;
+  }
+
+  .maevn .col-right .maevn-imgs img:last-child {
+    margin: 0px;
+    margin-left: 19px;
+    margin-top: -65px;
+    float: none;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .maevn .col-right .maevn-imgs:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 415px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .maevn .col-right .maevn-imgs:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 418px;
+    left: 0;
+    display: block;
+    background-color: #000;
+  }
+
+  .maevn .col-right .catholic-text {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .maevn .col-right .catholic-text .catholic-maintext {
+    width: 100%;
+  }
+
+  .maevn .col-right .catholic-text .quote__text .quote__desc {
+    width: 100%;
+    font-style: italic;
+  }
+
+  .maevn .col-right .catholic-text .quote .quote__author .dash {
+    display: none;
+  }
+
+  .maevn .col-right .catholic-text .quote .quote__author:after {
+    height: 1px;
+    width: 10px;
+    top: 7px;
+  }
+}
